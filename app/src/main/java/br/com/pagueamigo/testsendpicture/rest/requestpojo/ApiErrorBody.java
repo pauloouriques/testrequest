@@ -2,12 +2,13 @@ package br.com.pagueamigo.testsendpicture.rest.requestpojo;
 
 import com.google.gson.Gson;
 
-import br.com.pagueamigo.android.entities.BaseEntity;
+import br.com.pagueamigo.testsendpicture.entities.BaseEntity;
+
 
 /**
  * This class represents an API error.
  */
-public class ApiErrorBody extends BaseEntity{
+public class ApiErrorBody extends BaseEntity {
 
     private long timestamp;
     private int status;
